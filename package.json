@@ -1,0 +1,58 @@
+{
+  "name": "gatsby-mdx-daisy-tailwind-template",
+  "version": "0.0.1",
+  "description": "A Quick Start for Gatsby Project with MDX Plugin and TailwindCSS/DaisyUI.",
+  "private": true,
+  "scripts": {
+    "dev": "rm -rf .cache/caches && gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@mdx-js/mdx": "v1",
+    "@mdx-js/react": "v1",
+    "@theme-ui/presets": "^0.13.1",
+    "@theme-ui/prism": "^0.13.1",
+    "autoprefixer": "^10.4.2",
+    "daisyui": "^2.6.0",
+    "ether-react": "^0.1.0",
+    "gatsby": "^4.5.3",
+    "gatsby-plugin-mdx": "^3.9.0",
+    "gatsby-plugin-page-creator": "^4.9.0",
+    "gatsby-plugin-postcss": "^5.9.0",
+    "gatsby-plugin-theme-ui": "^0.13.1",
+    "gatsby-source-filesystem": "^4.9.0",
+    "postcss": "^8.4.7",
+    "react": "^17.0.1",
+    "react-confetti": "^6.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^3.0.23",
+    "theme-ui": "^0.13.1"
+  },
+  "keywords": [
+    "javascript",
+    "gatsby",
+    "mdx",
+    "theme-ui",
+    "tailwind",
+    "daisy",
+    "vercel"
+  ],
+  "author": "Ming-der Wang",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^24.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/mingderwang/gatsby-mdx-daisy-tailwind-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingderwang/gatsby-mdx-daisy-tailwind-template"
+  },
+  "homepage": "https://github.com/mingderwang/gatsby-mdx-daisy-tailwind-template/blob/main/README.md"
+}
